@@ -1,0 +1,32 @@
+box: nodesource/trusty
+
+build:
+  steps:
+    - script:
+        name: Install dependencies
+        code: |
+          npm install
+unit-tests:
+  steps:
+    - script:
+        name: run unit tests
+        code: |
+          npm run unit-tests
+integration-tests:
+  steps:
+    - script:
+        name: run integration tests
+        code: |
+          npm run integration-tests
+acceptance-tests:
+  steps:
+    - script:
+        name: run acceptance tests
+        code: |
+          npm run acceptance-tests
+deploy:
+  steps:
+    - script:
+        name: deploy application
+        code: |
+          npm run deploy

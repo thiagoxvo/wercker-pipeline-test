@@ -1,0 +1,25 @@
+{
+  "name": "@door2door/wercker-pipeline-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "unit-tests": "node unit-test.js",
+    "integration-tests": "node integration-test.js",
+    "acceptance-tests": "node acceptance-test.js",
+    "deploy": "node deploy.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thiagoxvo/wercker-pipeline-test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thiagoxvo/wercker-pipeline-test/issues"
+  },
+  "homepage": "https://github.com/thiagoxvo/wercker-pipeline-test#readme",
+  "dependencies": {
+    "figlet": "^1.2.3"
+  }
+}
