@@ -20,6 +20,6 @@
   },
   "homepage": "https://github.com/thiagoxvo/wercker-pipeline-test#readme",
   "dependencies": {
-    "figlet": "^1.2.3"
+    "figlet": "^1.11.3"
   }
 }
